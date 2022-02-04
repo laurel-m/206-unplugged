@@ -142,7 +142,7 @@ address {
 }
 
 .content-wrapper {
-  margin: 50px 0;
+  margin: 25px 0;
   width: 90%;
 }
 
@@ -197,7 +197,8 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0;
   width: 100%;
 }
 
@@ -215,7 +216,7 @@ footer p {
 }
 
 footer .content-wrapper {
-  margin: 50px 0;
+  margin: 30px 0;
   width: 55%;
 }
 
@@ -281,7 +282,20 @@ aside {
 aside .form {
   margin-top: 30px;
 }
- 
+
+aside .content-wrapper {
+  margin: 20px 0 50px;
+}
+
+aside h3 {
+  margin: 5px 0;
+}
+
+aside p {
+  margin: 0 0 5px 0;
+  padding-bottom: 5px;
+}
+
 input[type=text] {
   box-sizing: border-box;
   width: 100%;
@@ -315,13 +329,18 @@ input[type=button] {
   background-position: center;
 }
 
+.features .content-wrapper {
+  margin: 30px 0;
+}
+
 .features h2 {
-  margin-bottom: 60px;
+  line-height: 1.285;
+  margin-bottom: 40px;
+  padding: 5px;
 }
 
 .features article {
   margin: 30px 0;
-  width: 63%;
 }
 
 .features .features-items {
@@ -329,16 +348,17 @@ input[type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 30px;
 }
 
 .features p {
-  margin: 0;
+  margin: 0 80px;
   text-align: center;
 }
 
 .features i {
   font-size: 3.75em;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* ----- Reviews ----- */
@@ -358,6 +378,10 @@ input[type=button] {
 .reviews h3 {
   margin: 20px 0;
   width: 55%;
+}
+
+.reviews .content-wrapper {
+  margin-bottom: 40px;
 }
 
 /* ----- About ---- */
