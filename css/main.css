@@ -471,14 +471,16 @@ input[type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin: 50px 0 0 0;
+  margin: 20px 0;
+  padding: 5px;
 }
 
 .faq h1 {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-size: 3.5em;
+  font-size: 2.185em;
   font-weight: 500;
-  padding-bottom: 10px;
+  line-height: 1.25;
+  margin: 0;
 }
 
 .faq h2 {
@@ -489,14 +491,17 @@ input[type=button] {
 }
 
 .faq-content {
-  column-count: 2;
-  column-gap: 60px;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0 5px;
 }
 
 .faq-content h4 {
   line-height: 1.333;
+  margin: 10px 0;
+}
+
+footer .content-wrapper {
+  margin: 20px 0;
 }
 
 /* ==========================================================================
@@ -782,7 +787,7 @@ footer .copyright {
 }
 
 .content-wrapper h1 {
-  font-size: 3em;
+  font-size: 2.75em;
   font-weight: 500;
   line-height: 1.25;
   margin: 0;
@@ -815,11 +820,21 @@ footer .copyright {
   justify-content: space-between;
 }
 
-.faq-content {
-  flex-basis: 45%;
+.faq .content-wrapper {
+  margin: 50px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.faq h2 {
+.faq-content {
+  flex-basis: 45%;
+  margin-bottom: 10px;
+}
+
+.faq h1 {
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -941,28 +956,37 @@ footer .copyright {
   font-size: 1.875em;
 }
 
-  /* ----- FAQ Page ----- */
-  .faq .content-wrapper {
-    align-items: center;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin: 0 50px;
+/* ----- FAQ Page ----- */
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq .content-wrapper {
+  margin: 50px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+  flex-basis: 45%;
+  margin-bottom: 10px;
+}
+
+.faq h1 {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.faq h4,
+.faq p {
+  font-size: 1.125em;
+  line-height: 1;
   }
-  
-  .faq h1 {
-    font-size: 3em;
-    font-weight: 500;
-    text-align: left;
-    width: 100%;
-  }
-    
-  .faq h4,
-  .faq p {
-      font-size: 1.125em;
-      font-weight: 500;
-      line-height: 1;
-  }
+
+footer .footer-content {
+  width: 100%
 }
 
 /* ==========================================================================
