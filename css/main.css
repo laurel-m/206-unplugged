@@ -312,7 +312,7 @@ input[type=text] {
   padding: 1em;
 }
  
-input[type=button] {
+input[type=.project-link] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
@@ -1063,4 +1063,3 @@ footer .footer-content {
     page-break-after: avoid;
   }
 }
-
