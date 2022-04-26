@@ -312,7 +312,7 @@ input[type=text] {
   padding: 1em;
 }
  
-input[type=.project-link] {
+input[type=button] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
